@@ -1,10 +1,8 @@
-//햄버거 버튼
-$ (document).ready (function () {
-  $ ('.nav .menu-trigger').click (function () {
-    if ($ (this).hasClass ('active')) {
-      $ (this).removeClass ('active');
-    } else {
-      $ (this).addClass ('active');
-    }
-  });
-});
+function openNav() {
+  document.getElementById("mySidenav").style.width = "200px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+

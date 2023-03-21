@@ -1,11 +1,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../design/icomoon.eot');
-  src:  url('../design/icomoon.eot') format('embedded-opentype'),
-    url('..//design/icomoon.svg') format('truetype'),
-    url('../design/icomoon.ttf') format('woff'),
-    url('../design/icomoon.woff') format('svg');
+  src:  url('../icomoon.eot');
+  src:  url('../icomoon.eot') format('embedded-opentype'),
+    url('../icomoon.svg') format('truetype'),
+    url('../icomoon.ttf') format('woff'),
+    url('../icomoon.woff') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;

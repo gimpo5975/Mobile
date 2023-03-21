@@ -13,10 +13,22 @@
   <title>Document</title>
 </head>
 <body>
+  <!--nav-->
+  <div class="sidenav" id="mySidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <i class="fa-solid fa-xmark"></i>
+    </a>
+    <a href="#">we are</a>
+    <a href="#">product</a>
+    <a href="#">service</a>
+    <a href="#">clients</a>
+    <a href="#">blog</a>
+  </div>
+  
   <div class="container">
     <header>
       <nav>
-        <a href="#"><i class="icon-list"></i></a>
+        <a href="javascript:void(0)" onclick="openNav()"><i class="icon-list"></i></a>
         <a href="#"><i class="icon-search"></i></a>
       </nav>
       <section class="title">
@@ -65,7 +77,13 @@
             <p class="price">20,000원</p>
           </div>
         </li>
-        <li class="advert"></li>
+        <li class="advert">
+          <img src="images/banner.png" class="saly" alt="banner">
+          <div class="saly-back">
+            <h1>Free Shopping</h1>
+            <p>When ordering <span>from 4,000원</span></p>
+          </div>
+        </li>
         <li>
           <div class="imgbox">
             <div class="bkboxc"></div>
